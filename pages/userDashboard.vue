@@ -1,13 +1,19 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="grid grid-cols-7 w-full h-full bg-[#F7FAFC]">
+  <div
+    class="grid grid-cols-7 w-full h-full bg-[#F7FAFC] dark:bg-gray-800 transition duration-500 ease-in-out"
+  >
     <div
-      class="col-span-1 w-full h-[100vh] bg-blue-50 p-8 flex flex-col justify-between"
+      class="col-span-1 w-full h-[100vh] bg-blue-50 p-8 flex flex-col justify-between dark:bg-gray-900"
     >
       <div>
         <div class="flex justify-between items-center">
-          <h1 class="text-xl font-bold">My Admin</h1>
+          <nuxt-link to="/">
+            <h1 class="text-xl font-bold cursor-pointer dark:text-gray-400">
+              My Admin
+            </h1>
+          </nuxt-link>
           <i
             class="mdi mdi-bell-outline text-2xl text-gray-500 hover:text-green-500 transition duration-200"
           ></i>
@@ -21,9 +27,10 @@
           />
         </div>
         <div class="my-6">
-          <h1 class="text-xl font-bold">Hello Nakamura</h1>
+          <h1 class="text-xl font-bold dark:text-gray-400">Hello Nakamura</h1>
           <h2 class="font-bold text-sm">
-            <span class="text-green-600">Admin </span> <span>id438901</span>
+            <span class="text-green-600">Admin </span>
+            <span class="dark:text-gray-400"> id438901</span>
           </h2>
         </div>
         <button
@@ -35,29 +42,29 @@
         <div class="mt-8">
           <nuxt-link to="/">
             <div
-              class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300"
+              class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300 dark:hover:bg-gray-800"
             >
               <i class="mdi mdi-view-dashboard text-gray-400 text-xl mr-6"></i>
-              <h2 class="font-bold">Dashboard</h2>
+              <h2 class="font-bold dark:text-gray-400">Dashboard</h2>
             </div>
           </nuxt-link>
           <div
-            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300"
+            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300 dark:hover:bg-gray-800"
           >
             <i class="mdi mdi-calendar text-gray-400 text-xl mr-6"></i>
-            <h2 class="font-bold">Calendar</h2>
+            <h2 class="font-bold dark:text-gray-400">Calendar</h2>
           </div>
           <div
-            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300"
+            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300 dark:hover:bg-gray-800"
           >
             <i class="mdi mdi-account text-gray-400 text-xl mr-6"></i>
-            <h2 class="font-bold">Users</h2>
+            <h2 class="font-bold dark:text-gray-400">Users</h2>
           </div>
           <div
-            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300"
+            class="flex justify-start items-center mb-5 p-1 hover:bg-white hover:shadow rounded cursor-pointer transition duration-300 dark:hover:bg-gray-800"
           >
             <i class="mdi mdi-source-repository text-gray-400 text-xl mr-6"></i>
-            <h2 class="font-bold">Tasks</h2>
+            <h2 class="font-bold dark:text-gray-400">Tasks</h2>
           </div>
         </div>
       </div>
@@ -68,7 +75,7 @@
     </div>
     <div class="col-span-6 w-full h-full px-12">
       <UserDashboardNav />
-      <h1 class="mt-6 font-bold text-3xl mb-8">User List</h1>
+      <h1 class="mt-6 font-bold text-3xl mb-8 dark:text-gray-400">User List</h1>
       <div class="flex justify-between border-b border-gray-300 pb-2">
         <div>
           <span class="text-green-500"

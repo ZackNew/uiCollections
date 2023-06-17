@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const tabs = ref(["Users", "Roles", "Access Rights"]);
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
 </script>
 
 <template>
@@ -7,7 +9,7 @@ const tabs = ref(["Users", "Roles", "Access Rights"]);
     <div class="flex">
       <div v-for="tab in tabs" :key="tab">
         <button
-          class="hover:text-green-500 mr-6 font-bold py-2 transition duration-300 ease-in-out"
+          class="hover:text-green-500 mr-6 font-bold py-2 transition duration-300 ease-in-out dark:text-gray-400 dark:hover:text-green-500"
         >
           {{ tab }}
         </button>
@@ -15,12 +17,14 @@ const tabs = ref(["Users", "Roles", "Access Rights"]);
     </div>
     <div class="flex items-center">
       <svg
+        v-if="!isDark"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="w-6 h-6 hover:text-green-500 transition duration-300 ease-in-out mr-4"
+        class="w-5 h-5 hover:text-green-500 transition duration-300 ease-in-out mr-4"
+        @click="toggleDark()"
       >
         <path
           stroke-linecap="round"
@@ -29,11 +33,16 @@ const tabs = ref(["Users", "Roles", "Access Rights"]);
         />
       </svg>
       <i
-        class="mdi mdi-magnify text-2xl hover:text-green-500 transition duration-300 ease-in-out mr-4"
+        v-else
+        class="mdi mdi-white-balance-sunny text-gray-400 text-xl dark:hover:text-green-500 mr-4"
+        @click="toggleDark()"
+      ></i>
+      <i
+        class="mdi mdi-magnify text-2xl dark:text-gray-400 hover:text-green-500 transition duration-300 ease-in-out mr-4 dark:hover:text-green-500"
       ></i>
       <input
         type="text"
-        class="w-24 focus:outline-none border-none inputField"
+        class="w-24 focus:outline-none border-none inputField dark:text-gray-400"
         placeholder="Search"
       />
     </div>

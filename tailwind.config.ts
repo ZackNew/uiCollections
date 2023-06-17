@@ -1,6 +1,7 @@
 import defaultTheme from "tailwindcss/defaultTheme";
 
 module.exports = {
+  darkMode: "class",
   mode: "jit",
   content: {
     files: [
