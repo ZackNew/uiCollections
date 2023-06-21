@@ -42,7 +42,7 @@ const toggleDark = useToggle(isDark);
       ></i>
       <input
         type="text"
-        class="w-24 focus:outline-none border-none inputField dark:text-gray-400"
+        class="w-24 focus:ring-0 border-none inputField dark:text-gray-400"
         placeholder="Search"
       />
     </div>

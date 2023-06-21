@@ -5,5 +5,8 @@
     <nuxt-link to="/userDashboard">
       <h1 class="dark:text-pink-400">The userDashboard</h1>
     </nuxt-link>
+    <nuxt-link to="/socialMedia">
+      <h1 class="dark:text-pink-400">The socialMedia</h1>
+    </nuxt-link>
   </div>
 </template>
