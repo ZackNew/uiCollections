@@ -14,18 +14,14 @@ const props = defineProps([
 </script>
 
 <template>
-  <div class="bg-white rounded-xl p-4 grid grid-cols-11 gap-4">
+  <div class="bg-white rounded-xl p-4 grid grid-cols-11 gap-4 h-72">
     <div class="col-span-5">
-      <img
-        class="rounded-xl min-h-[100%] w-[100%] object-cover"
-        :src="image"
-        alt=""
-      />
+      <img class="rounded-xl h-64 w-[100%] object-cover" :src="image" alt="" />
     </div>
     <div class="col-span-6">
       <div class="flex justify-between mr-5">
         <div
-          class="bg-cyan-400 px-2 flex justify-center items-center rounded-lg text-blue-800 text-center mr-2"
+          class="bg-cyan-400 px-2 flex justify-center items-center rounded-lg text-blue-800 text-center mr-2 max-h-16"
         >
           <div>
             <p class="uppercase font-bold">{{ date.split(" ")[1] }}</p>
@@ -33,8 +29,10 @@ const props = defineProps([
           </div>
         </div>
         <div>
-          <p class="font-bold text-lg text-blue-900">{{ title }}</p>
-          <p class="text-gray-400 capitalize">
+          <p class="font-bold text-lg text-blue-900 line-clamp-2">
+            {{ title }}
+          </p>
+          <p class="text-gray-400 capitalize line-clamp-1">
             <span>{{ meeting.hour }} </span><span>{{ meeting.platform }}</span>
           </p>
         </div>
@@ -66,11 +64,11 @@ const props = defineProps([
               src="_nuxt/assets/images/fire.png"
               alt=""
             />
-            <p class="font-bold text-xl">{{ likes }}</p>
+            <p class="font-bold text-lg">{{ likes }}</p>
           </div>
           <div class="flex items-center">
             <i class="mdi mdi-share mr-2 text-gradient text-2xl"></i>
-            <p>{{ shares }}</p>
+            <p class="font-bold text-lg">{{ shares }}</p>
           </div>
         </div>
       </div>

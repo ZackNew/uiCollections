@@ -4,7 +4,7 @@ const posts = [
   {
     id: 1,
     title: "How to Manage Your Time and Get More Done",
-    image: "_nuxt/assets/images/anime_1.jpeg",
+    image: "_nuxt/assets/images/post1.jpg",
     date: "06 May",
     meeting: {
       day: "Monday",
@@ -25,7 +25,7 @@ const posts = [
   {
     id: 2,
     title: "How to Learn Anything for Creatives and Self-Learners",
-    image: "_nuxt/assets/images/female_2.jpeg",
+    image: "_nuxt/assets/images/post2.jpg",
     date: "19 May",
     meeting: {
       day: "Tuesday",
@@ -47,7 +47,7 @@ const posts = [
   {
     id: 3,
     title: "Mastering Project Management: Strategies for Success",
-    image: "_nuxt/assets/images/profile_7.jpeg",
+    image: "_nuxt/assets/images/post2.jpeg",
     date: "31 May",
     meeting: {
       day: "Wednesday",
@@ -68,7 +68,7 @@ const posts = [
   {
     id: 4,
     title: "Unleashing Creativity: A Workshop for Artists and Innovators",
-    image: "_nuxt/assets/images/anime_2.jpeg",
+    image: "_nuxt/assets/images/post4.png",
     date: "02 June",
     meeting: {
       day: "Thursday",
