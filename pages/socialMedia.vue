@@ -90,31 +90,50 @@ const posts = [
 </script>
 
 <template>
-  <div class="grid grid-cols-12 gap-4 bg-[#f9f9f9]">
+  <div class="grid grid-cols-12 bg-[#f9f9f9]">
+    <!-- Left Side -->
     <div class="col-span-3">
       <SocialMediaSideBar />
     </div>
+    <!-- Feed -->
     <div class="col-span-6 mt-3 overflow-clip">
       <div class="w-full flex justify-center">
         <SocialMediaNav />
       </div>
-      <SocialMediaStoryList />
-      <SocialMediaPostCard
-        v-for="post in posts"
-        :key="post.id"
-        :id="post.id"
-        :date="post.date"
-        :title="post.title"
-        :image="post.image"
-        :meeting="post.meeting"
-        :description="post.description"
-        :user="post.user"
-        :participants="post.participants"
-        :likes="post.likes"
-        :shares="post.shares"
-        class="my-5"
-      />
+      <div class="max-h-[92vh] overflow-auto no-scrollbar px-4">
+        <SocialMediaStoryList />
+        <SocialMediaPostCard
+          v-for="post in posts"
+          :key="post.id"
+          :id="post.id"
+          :date="post.date"
+          :title="post.title"
+          :image="post.image"
+          :meeting="post.meeting"
+          :description="post.description"
+          :user="post.user"
+          :participants="post.participants"
+          :likes="post.likes"
+          :shares="post.shares"
+          class="my-5"
+        />
+      </div>
     </div>
-    <div class="col-span-3 h-full bg-slate-500">live</div>
+    <!-- Live Section -->
+    <div class="col-span-3">
+      <SocialMediaLiveSection />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.no-scrollbar::-webkit-scrollbar {
+  width: 30px;
+  background-color: none;
+  width: 7px;
+}
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius: 100px;
+}
+</style>

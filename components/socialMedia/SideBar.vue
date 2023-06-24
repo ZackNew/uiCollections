@@ -10,8 +10,6 @@
         class="focus:ring-0 border-none rounded-xl w-full bg-slate-200"
         placeholder="Search..."
         type="text"
-        name=""
-        id=""
       />
     </div>
     <SocialMediaSideBarUsers />
