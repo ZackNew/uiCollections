@@ -4,12 +4,14 @@ const props = defineProps(["image", "name", "status"]);
 
 <template>
   <div
-    class="px-2 py-1 hover:bg-blue-100 rounded-lg transition duration-200 ease-in-out"
+    class="px-2 py-1 hover:bg-blue-100 rounded-lg transition duration-200 dark:hover:bg-gray-600 ease-in-out"
   >
     <div class="flex justify-between items-center my-2">
       <div class="flex items-center">
         <img class="w-10 h-10 rounded-full mr-3" :src="image" alt="" />
-        <p class="font-semibold text-gray-600 truncate">{{ name }}</p>
+        <p class="font-semibold text-gray-600 truncate dark:text-gray-500">
+          {{ name }}
+        </p>
       </div>
       <div>
         <i

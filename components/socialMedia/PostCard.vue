@@ -14,7 +14,9 @@ const props = defineProps([
 </script>
 
 <template>
-  <div class="bg-white rounded-xl p-4 grid grid-cols-11 gap-4 h-72">
+  <div
+    class="bg-white rounded-xl p-4 grid grid-cols-11 gap-4 h-72 dark:bg-slate-800"
+  >
     <div class="col-span-5">
       <img class="rounded-xl h-64 w-[100%] object-cover" :src="image" alt="" />
     </div>
@@ -29,14 +31,16 @@ const props = defineProps([
           </div>
         </div>
         <div>
-          <p class="font-bold text-lg text-blue-900 line-clamp-2">
+          <p
+            class="font-bold text-lg text-blue-900 line-clamp-2 dark:text-blue-600"
+          >
             {{ title }}
           </p>
           <p class="text-gray-400 capitalize line-clamp-1">
             <span>{{ meeting.hour }} </span><span>{{ meeting.platform }}</span>
           </p>
         </div>
-        <i class="mdi mdi-dots-horizontal"></i>
+        <i class="mdi mdi-dots-horizontal dark:text-gray-600"></i>
       </div>
       <div>
         <p class="text-sm text-gray-400 line-clamp-2 mt-3">{{ description }}</p>
@@ -44,7 +48,7 @@ const props = defineProps([
         <div class="flex items-center mt-5">
           <img class="w-10 h-10 rounded-full mr-3" :src="user.image" alt="" />
           <div>
-            <p class="font-bold text-sm">{{ user.name }}</p>
+            <p class="font-bold text-sm dark:text-gray-300">{{ user.name }}</p>
             <p class="text-sm text-gray-500">{{ user.position }}</p>
           </div>
         </div>
@@ -64,11 +68,11 @@ const props = defineProps([
               src="_nuxt/assets/images/fire.png"
               alt=""
             />
-            <p class="font-bold text-lg">{{ likes }}</p>
+            <p class="font-bold text-lg dark:text-gray-500">{{ likes }}</p>
           </div>
           <div class="flex items-center">
             <i class="mdi mdi-share mr-2 text-gradient text-2xl"></i>
-            <p class="font-bold text-lg">{{ shares }}</p>
+            <p class="font-bold text-lg dark:text-gray-500">{{ shares }}</p>
           </div>
         </div>
       </div>

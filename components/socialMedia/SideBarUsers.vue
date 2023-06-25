@@ -115,7 +115,9 @@ const friends = ref([
 
 <template>
   <div class="mt-6 h-[90%] overflow-auto no-scrollbar px-6">
-    <h2 class="uppercase text-gray-500 font-bold">Your Groups</h2>
+    <h2 class="uppercase text-gray-500 font-bold dark:text-gray-400">
+      Your Groups
+    </h2>
     <div v-for="group in groups" :key="group.id">
       <SocialMediaUserList
         :image="group.image"
@@ -123,7 +125,9 @@ const friends = ref([
         :status="group.status"
       />
     </div>
-    <h2 class="uppercase text-gray-500 font-bold">Friends</h2>
+    <h2 class="uppercase text-gray-500 font-bold dark:text-gray-400">
+      Friends
+    </h2>
     <div v-for="friend in friends" :key="friend.id">
       <SocialMediaUserList
         :image="friend.image"

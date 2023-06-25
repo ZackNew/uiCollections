@@ -17,13 +17,15 @@ function toggleActiveIcon(icon: string) {
 </script>
 
 <template>
-  <div class="bg-[#f2f7fb] rounded-lg px-[3%] py-3 flex justify-around">
+  <div
+    class="bg-[#f2f7fb] dark:bg-[#2d3749] rounded-lg px-[3%] py-3 flex justify-around"
+  >
     <div v-for="icon in icons" :key="icon">
       <i
         :class="`mdi ${icon} text-2xl p-2 m-2 lg:m-4 rounded-lg transition duration-300 ease-in-out ${
           icon === activeIcon
             ? 'bg-[#0f3a9c] text-[#02c3d4] transition duration-300 ease-in-out'
-            : 'text-gray-500 transition duration-300 ease-in-out hover:bg-gray-200'
+            : 'text-gray-500 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-gray-800'
         }`"
         @click="toggleActiveIcon(icon)"
       ></i>

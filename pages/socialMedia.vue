@@ -90,7 +90,7 @@ const posts = [
 </script>
 
 <template>
-  <div class="grid grid-cols-12 bg-[#f9f9f9]">
+  <div class="grid grid-cols-12 bg-[#f9f9f9] dark:bg-[#17242b]">
     <!-- Left Side -->
     <div class="col-span-3">
       <SocialMediaSideBar />

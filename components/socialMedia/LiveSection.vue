@@ -34,7 +34,7 @@ const comments = [
 </script>
 
 <template>
-  <div class="bg-[#f0f2ff] h-[100vh] overflow-auto px-[6%]">
+  <div class="bg-[#f0f2ff] dark:bg-[#2d3749] h-[100vh] overflow-auto px-[6%]">
     <div class="flex justify-end items-center py-5 px-2">
       <i
         class="mdi mdi-bell-outline text-xl text-gray-500 hover:text-green-500 transition duration-500 mr-8"
@@ -42,16 +42,16 @@ const comments = [
       <div class="flex items-center">
         <img
           class="w-7 h-7 rounded-full mr-3"
-          src="_nuxt/assets/images/owner.jpg"
+          src="_nuxt/assets/images/male_3.jpeg"
           alt=""
         />
         <div class="mr-3">
-          <p class="font-bold text-sm">Zack White</p>
+          <p class="font-bold text-sm text-gray-500">Zack White</p>
         </div>
         <i class="mdi mdi-arrow-down-drop-circle-outline text-blue-500"></i>
       </div>
     </div>
-    <div class="bg-white rounded-xl">
+    <div class="bg-white dark:bg-[#17242b] rounded-xl">
       <div class="relative flex flex-row justify-center">
         <div
           class="flex flex-col justify-between gradient-background absolute w-full h-full px-3 pt-3 pb-10"
@@ -65,7 +65,7 @@ const comments = [
             <div
               class="uppercase bg-black text-white py-[2px] text-xs w-[55px] rounded flex justify-around opacity-40"
             >
-              <i class="mdi mdi-eye text white"></i>
+              <i class="mdi mdi-eye text-white"></i>
               <p>342.3k</p>
             </div>
           </div>
@@ -79,8 +79,8 @@ const comments = [
                 />
                 <div>
                   <p class="font-bold text-sm">
-                    <span class="text-gray-300">Alex </span
-                    ><span class="text-white">Happy Celebrations</span>
+                    <span class="text-gray-300">Alex: </span
+                    ><span class="text-white">Happy Aniversary</span>
                   </p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const comments = [
                 />
                 <div>
                   <p class="font-bold text-sm">
-                    <span class="text-gray-300">Maria </span
+                    <span class="text-gray-300">Maria: </span
                     ><span class="text-white">Just joined here ✋</span>
                   </p>
                 </div>
@@ -125,7 +125,9 @@ const comments = [
       </div>
 
       <div class="mt-14 px-3">
-        <div class="bg-[#f0f2ff] rounded-xl px-[10px] py-[5px]">
+        <div
+          class="bg-[#f0f2ff] rounded-xl px-[10px] py-[5px] dark:bg-[#2d3749]"
+        >
           <div class="flex items-center">
             <img
               class="w-7 h-7 rounded-full mr-1"
