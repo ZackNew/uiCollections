@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const projects = [
   {
-    img: "_nuxt/assets/images/userDashboard.png",
+    img: "/assets/images/userDashboard.png",
     name: "user dashboard",
     link: "/userDashboard",
   },
   {
-    img: "_nuxt/assets/images/socialMedia.png",
+    img: "/assets/images/socialMedia.png",
     name: "social media",
     link: "/socialMedia",
   },

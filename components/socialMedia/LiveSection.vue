@@ -1,31 +1,31 @@
 <script setup lang="ts">
 const comments = [
   {
-    img: "_nuxt/assets/images/pp1.jpg",
+    img: "assets/images/pp1.jpg",
     name: "Adrian",
     comment: "We enjoyed your service. ",
     time: "7:30",
   },
   {
-    img: "_nuxt/assets/images/pp2.jpeg",
+    img: "assets/images/pp2.jpeg",
     name: "Milo Nick",
     comment: "Keep the good work 👍 ",
     time: "7:30",
   },
   {
-    img: "_nuxt/assets/images/pp3.jpg",
+    img: "assets/images/pp3.jpg",
     name: "Oscar Oasis",
     comment: "Happy Aniversary 😀",
     time: "7:31",
   },
   {
-    img: "_nuxt/assets/images/pp4.jpg",
+    img: "assets/images/pp4.jpg",
     name: "Micheal",
     comment: "Enjoy",
     time: "7:32",
   },
   {
-    img: "_nuxt/assets/images/pp5.jpeg",
+    img: "assets/images/pp5.jpeg",
     name: "Scofield",
     comment: "Happy aniversary guys...",
     time: "7:32",
@@ -42,7 +42,7 @@ const comments = [
       <div class="flex items-center">
         <img
           class="w-7 h-7 rounded-full mr-3"
-          src="_nuxt/assets/images/male_3.jpeg"
+          src="assets/images/male_3.jpeg"
           alt=""
         />
         <div class="mr-3">
@@ -74,7 +74,7 @@ const comments = [
               <div class="flex items-center">
                 <img
                   class="w-7 h-7 rounded-full mr-1"
-                  src="_nuxt/assets/images/male_3.jpeg"
+                  src="assets/images/male_3.jpeg"
                   alt=""
                 />
                 <div>
@@ -87,7 +87,7 @@ const comments = [
               <div class="flex items-center mt-3">
                 <img
                   class="w-7 h-7 rounded-full mr-1"
-                  src="_nuxt/assets/images/female_4.jpeg"
+                  src="assets/images/female_4.jpeg"
                   alt=""
                 />
                 <div>
@@ -99,7 +99,7 @@ const comments = [
               </div>
             </div>
             <div class="flex flex-col items-center">
-              <img src="_nuxt/assets/images/fire.png" class="w-3 h-4" alt="" />
+              <img src="assets/images/fire.png" class="w-3 h-4" alt="" />
               <p class="text-white">26.3k</p>
             </div>
           </div>
@@ -120,7 +120,7 @@ const comments = [
           </div>
         </div>
         <div class="h-full overflow-hidden">
-          <img class="rounded-t-xl" src="_nuxt/assets/images/live.jpg" alt="" />
+          <img class="rounded-t-xl" src="assets/images/live.jpg" alt="" />
         </div>
       </div>
 
@@ -131,7 +131,7 @@ const comments = [
           <div class="flex items-center">
             <img
               class="w-7 h-7 rounded-full mr-1"
-              src="_nuxt/assets/images/pin.png"
+              src="assets/images/pin.png"
               alt=""
             />
             <div>

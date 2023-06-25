@@ -1,4 +1,4 @@
 <template>
-  <MainNav />
+  <!-- <MainNav /> -->
   <slot />
 </template>

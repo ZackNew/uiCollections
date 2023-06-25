@@ -63,11 +63,7 @@ const props = defineProps([
         </div>
         <div class="flex w-[30%] justify-around items-center">
           <div class="flex items-center">
-            <img
-              class="w-3 h-4 mr-2"
-              src="_nuxt/assets/images/fire.png"
-              alt=""
-            />
+            <img class="w-3 h-4 mr-2" src="assets/images/fire.png" alt="" />
             <p class="font-bold text-lg dark:text-gray-500">{{ likes }}</p>
           </div>
           <div class="flex items-center">
