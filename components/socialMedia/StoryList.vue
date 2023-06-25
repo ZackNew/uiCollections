@@ -1,47 +1,47 @@
 <script setup lang="ts">
 const stories = [
   {
-    image: "_nuxt/assets/images/story1.jpeg",
+    image: "assets/images/story1.jpeg",
     seen: false,
     name: "quinn",
   },
   {
-    image: "_nuxt/assets/images/story2.jpeg",
+    image: "assets/images/story2.jpeg",
     seen: true,
     name: "alex",
   },
   {
-    image: "_nuxt/assets/images/story3.jpeg",
+    image: "assets/images/story3.jpeg",
     seen: false,
     name: "sarah",
   },
   {
-    image: "_nuxt/assets/images/story4.jpeg",
+    image: "assets/images/story4.jpeg",
     seen: false,
     name: "sebastian",
   },
   {
-    image: "_nuxt/assets/images/story5.jpeg",
+    image: "assets/images/story5.jpeg",
     seen: false,
     name: "stevy",
   },
   {
-    image: "_nuxt/assets/images/story6.jpeg",
+    image: "assets/images/story6.jpeg",
     seen: true,
     name: "jose",
   },
   {
-    image: "_nuxt/assets/images/story7.jpeg",
+    image: "assets/images/story7.jpeg",
     seen: false,
     name: "alita",
   },
   {
-    image: "_nuxt/assets/images/story8.jpeg",
+    image: "assets/images/story8.jpeg",
     seen: true,
     name: "andrew",
   },
   {
-    image: "_nuxt/assets/images/story9.jpeg",
+    image: "assets/images/story9.jpeg",
     seen: false,
     name: "peter",
   },
