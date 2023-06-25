@@ -21,7 +21,7 @@ const props = defineProps(["img", "name", "link"]);
       <div class="flex items-center justify-center py-2 px-3 bg-gray-400">
         <a
           :href="link"
-          class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700"
+          class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-600"
           >check it out</a
         >
       </div>
