@@ -2,13 +2,15 @@
 const groups = ref([
   {
     id: 1,
-    image: "assets/images/figma_logo.png",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/figma_logo_jnoxtm.png",
     name: "Figma Community",
     status: "",
   },
   {
     id: 2,
-    image: "assets/images/discord_logo.png",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/discord_logo_ssypm8.png",
     name: "Discord Community",
     status: "",
   },
@@ -16,97 +18,113 @@ const groups = ref([
 const friends = ref([
   {
     id: 1,
-    image: "assets/images/female_1.jpg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/female_1_kb56rn.jpg",
     name: "Olivia Davis",
     status: "online",
   },
   {
     id: 2,
-    image: "assets/images/profile_1.webp",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_1_auleaw.webp",
     name: "Noah Anderson",
     status: "2 hrs",
   },
   {
     id: 3,
-    image: "assets/images/anime_1.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761249/my-ui-collections-images/anime_1_ybyovx.jpg",
     name: "Ava Wilson",
     status: "online",
   },
   {
     id: 4,
-    image: "assets/images/male_1.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_1_nbxblm.jpg",
     name: "Isabella Martinez",
     status: "23 mins",
   },
   {
     id: 5,
-    image: "assets/images/male_2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_2_lit8sk.jpg",
     name: "Emma Johnson",
     status: "online",
   },
   {
     id: 6,
-    image: "assets/images/profile_3.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_3_vupgux.jpg",
     name: "Sophia Thompson",
     status: "1 min",
   },
   {
     id: 7,
-    image: "assets/images/profile_2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_2_jqhsbs.jpg",
     name: "Liam Smith",
     status: "just now",
   },
   {
     id: 8,
-    image: "assets/images/profile_5.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_5_q7nkyk.jpg",
     name: "Mia Rodriguez",
     status: "online",
   },
   {
     id: 9,
-    image: "assets/images/profile_6.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_6_i5vws2.jpg",
     name: "Jackson Lee",
     status: "2 mins",
   },
   {
     id: 10,
-    image: "assets/images/profile_7.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_7_te9pro.jpg",
     name: "Aiden Walker",
     status: "13 hrs",
   },
   {
     id: 11,
-    image: "assets/images/profile_8.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/profile_8_uvzux1.jpg",
     name: "Lucas Clark",
     status: "2 hrs",
   },
   {
     id: 12,
-    image: "assets/images/male_3.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/profile_3_vupgux.jpg",
     name: "Oliver Wright",
     status: "online",
   },
   {
     id: 13,
-    image: "assets/images/anime_2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761249/my-ui-collections-images/anime_2_l6oeoh.jpg",
     name: "Ethan Turner",
     status: "online",
   },
   {
     id: 14,
-    image: "assets/images/anime_3.jpg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/anime_3_wkbscv.jpg",
     name: "Amelia Lewis",
     status: "online",
   },
   {
     id: 15,
-    image: "assets/images/female_2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/female_2_yrqwug.jpg",
     name: "Harper Scott",
     status: "1 hr",
   },
   {
     id: 16,
-    image: "assets/images/female_4.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/female_4_ittwgd.jpg",
     name: "Charlotte King",
     status: "11 mins",
   },

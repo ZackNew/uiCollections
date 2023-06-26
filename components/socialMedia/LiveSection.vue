@@ -1,31 +1,31 @@
 <script setup lang="ts">
 const comments = [
   {
-    img: "assets/images/pp1.jpg",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/pp1_j8icd5.jpg",
     name: "Adrian",
     comment: "We enjoyed your service. ",
     time: "7:30",
   },
   {
-    img: "assets/images/pp2.jpeg",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/pp2_v3gtox.jpg",
     name: "Milo Nick",
     comment: "Keep the good work 👍 ",
     time: "7:30",
   },
   {
-    img: "assets/images/pp3.jpg",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/pp3_dvd5kp.jpg",
     name: "Oscar Oasis",
     comment: "Happy Aniversary 😀",
     time: "7:31",
   },
   {
-    img: "assets/images/pp4.jpg",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/pp4_rard1d.jpg",
     name: "Micheal",
     comment: "Enjoy",
     time: "7:32",
   },
   {
-    img: "assets/images/pp5.jpeg",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/pp5_dqdu0u.jpg",
     name: "Scofield",
     comment: "Happy aniversary guys...",
     time: "7:32",
@@ -42,7 +42,7 @@ const comments = [
       <div class="flex items-center">
         <img
           class="w-7 h-7 rounded-full mr-3"
-          src="assets/images/male_3.jpeg"
+          src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_3_dxtqfl.jpg"
           alt=""
         />
         <div class="mr-3">
@@ -74,7 +74,7 @@ const comments = [
               <div class="flex items-center">
                 <img
                   class="w-7 h-7 rounded-full mr-1"
-                  src="assets/images/male_3.jpeg"
+                  src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_3_dxtqfl.jpg"
                   alt=""
                 />
                 <div>
@@ -87,7 +87,7 @@ const comments = [
               <div class="flex items-center mt-3">
                 <img
                   class="w-7 h-7 rounded-full mr-1"
-                  src="assets/images/female_4.jpeg"
+                  src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/female_4_ittwgd.jpg"
                   alt=""
                 />
                 <div>
@@ -99,7 +99,11 @@ const comments = [
               </div>
             </div>
             <div class="flex flex-col items-center">
-              <img src="assets/images/fire.png" class="w-3 h-4" alt="" />
+              <img
+                src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/fire_imfl74.png"
+                class="w-3 h-4"
+                alt=""
+              />
               <p class="text-white">26.3k</p>
             </div>
           </div>
@@ -120,7 +124,11 @@ const comments = [
           </div>
         </div>
         <div class="h-full overflow-hidden">
-          <img class="rounded-t-xl" src="assets/images/live.jpg" alt="" />
+          <img
+            class="rounded-t-xl"
+            src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/live_kiulqr.jpg"
+            alt=""
+          />
         </div>
       </div>
 
@@ -131,7 +139,7 @@ const comments = [
           <div class="flex items-center">
             <img
               class="w-7 h-7 rounded-full mr-1"
-              src="assets/images/pin.png"
+              src="https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/pin_qmcc7r.png"
               alt=""
             />
             <div>

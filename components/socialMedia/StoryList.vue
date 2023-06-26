@@ -1,47 +1,56 @@
 <script setup lang="ts">
 const stories = [
   {
-    image: "assets/images/story1.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/story1_s3nrvp.jpg",
     seen: false,
     name: "quinn",
   },
   {
-    image: "assets/images/story2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761243/my-ui-collections-images/story2_yhi3p1.jpg",
     seen: true,
     name: "alex",
   },
   {
-    image: "assets/images/story3.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/story3_xn9dul.jpg",
     seen: false,
     name: "sarah",
   },
   {
-    image: "assets/images/story4.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/story4_fpd1fz.jpg",
     seen: false,
     name: "sebastian",
   },
   {
-    image: "assets/images/story5.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761243/my-ui-collections-images/story5_emtzyb.jpg",
     seen: false,
     name: "stevy",
   },
   {
-    image: "assets/images/story6.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761243/my-ui-collections-images/story6_vzhaio.jpg",
     seen: true,
     name: "jose",
   },
   {
-    image: "assets/images/story7.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/story7_zdtvo8.jpg",
     seen: false,
     name: "alita",
   },
   {
-    image: "assets/images/story8.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761243/my-ui-collections-images/story8_b9xgjz.jpg",
     seen: true,
     name: "andrew",
   },
   {
-    image: "assets/images/story9.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761242/my-ui-collections-images/story9_z12obw.jpg",
     seen: false,
     name: "peter",
   },

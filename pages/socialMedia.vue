@@ -4,7 +4,8 @@ const posts = [
   {
     id: 1,
     title: "How to Manage Your Time and Get More Done",
-    image: "assets/images/post1.jpg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/post1_w3qela.jpg",
     date: "06 May",
     meeting: {
       day: "Monday",
@@ -14,7 +15,8 @@ const posts = [
     description:
       "Join us for a practical workshop on time management techniques and learn how to boost your productivity. Discover effective strategies to prioritize tasks, avoid distractions, and achieve your goals efficiently.",
     user: {
-      image: "assets/images/male_2.jpeg",
+      image:
+        "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_2_lit8sk.jpg",
       name: "John Doe",
       position: "Manager at Paypal",
     },
@@ -25,7 +27,8 @@ const posts = [
   {
     id: 2,
     title: "How to Learn Anything for Creatives and Self-Learners",
-    image: "assets/images/post2.jpg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/post2_zqnjeh.jpg",
     date: "19 May",
     meeting: {
       day: "Tuesday",
@@ -35,7 +38,8 @@ const posts = [
     description:
       "Calling all creatives and self-learners! In this interactive session, explore proven techniques to accelerate your learning process. Gain insights on effective learning strategies, harness your creativity, and unlock your full potential.",
     user: {
-      image: "assets/images/profile_8.jpeg",
+      image:
+        "https://res.cloudinary.com/doouhsdka/image/upload/v1687761244/my-ui-collections-images/profile_8_uvzux1.jpg",
       name: "Jane Smith",
       position: "Team Lead at Microsoft",
     },
@@ -47,7 +51,8 @@ const posts = [
   {
     id: 3,
     title: "Mastering Project Management: Strategies for Success",
-    image: "assets/images/post2.jpeg",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/post2_bvzlxk.jpg",
     date: "31 May",
     meeting: {
       day: "Wednesday",
@@ -57,7 +62,8 @@ const posts = [
     description:
       "Are you ready to take your project management skills to the next level? Join us for an engaging discussion on proven strategies and best practices. Learn from industry experts, explore real-world case studies, and enhance your ability to deliver successful projects.",
     user: {
-      image: "assets/images/male_1.jpeg",
+      image:
+        "https://res.cloudinary.com/doouhsdka/image/upload/v1687761247/my-ui-collections-images/male_1_nbxblm.jpg",
       name: "Michael Johnson",
       position: "Project Manager at eTech",
     },
@@ -68,7 +74,8 @@ const posts = [
   {
     id: 4,
     title: "Unleashing Creativity: A Workshop for Artists and Innovators",
-    image: "assets/images/post4.png",
+    image:
+      "https://res.cloudinary.com/doouhsdka/image/upload/v1687761246/my-ui-collections-images/post4_bbqdhw.png",
     date: "02 June",
     meeting: {
       day: "Thursday",
@@ -78,7 +85,8 @@ const posts = [
     description:
       "Calling all artists, innovators, and creative minds! Join us for an immersive workshop where we will dive deep into techniques that can ignite your creativity. Discover how to overcome creative blocks, find inspiration in unexpected places, and nurture your artistic spirit.",
     user: {
-      image: "assets/images/female_2.jpeg",
+      image:
+        "https://res.cloudinary.com/doouhsdka/image/upload/v1687761248/my-ui-collections-images/female_2_yrqwug.jpg",
       name: "Emily Wilson",
       position: "Trainer at Udacidy",
     },

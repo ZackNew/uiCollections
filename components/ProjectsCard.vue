@@ -6,9 +6,8 @@ const props = defineProps(["img", "name", "link"]);
   <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-8">
     <img
       :src="img"
-      loading="lazy"
-      class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
-      alt="Issue Dashboard"
+      class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center object-cover"
+      :alt="name"
     />
     <div
       class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden"

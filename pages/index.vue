@@ -1,12 +1,12 @@
 <script setup lang="ts">
 const projects = [
   {
-    img: "/assets/images/userDashboard.png",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761242/my-ui-collections-images/userDashboard_d9o2da.png",
     name: "user dashboard",
     link: "/userDashboard",
   },
   {
-    img: "/assets/images/socialMedia.png",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687761245/my-ui-collections-images/socialMedia_yuofeg.png",
     name: "social media",
     link: "/socialMedia",
   },
