@@ -10,22 +10,29 @@ const projects = [
     name: "social media",
     link: "/socialMedia",
   },
+  {
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687777734/comerce_bkxkrc.webp",
+    name: "ecommerce",
+    link: "/ecommerce",
+  },
 ];
 </script>
 
 <template>
-  <div class="container">
-    <div class="grid grid-cols-12 gap-4 mt-4 md:mt-12 justify-center">
-      <ProjectsCard
-        class="col-span-12 md:col-span-6 lg:col-span-4"
-        v-for="project in projects"
-        :key="project.name"
-        :img="project.img"
-        :name="project.name"
-        :link="project.link"
-      />
+  <NuxtLayout name="home">
+    <div class="container">
+      <div class="grid grid-cols-12 gap-4 mt-4 md:mt-12 justify-center">
+        <ProjectsCard
+          class="col-span-12 md:col-span-6 lg:col-span-4"
+          v-for="project in projects"
+          :key="project.name"
+          :img="project.img"
+          :name="project.name"
+          :link="project.link"
+        />
+      </div>
     </div>
-  </div>
+  </NuxtLayout>
 </template>
 
 <style scoped>

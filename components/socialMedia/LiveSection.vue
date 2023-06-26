@@ -48,7 +48,7 @@ const comments = [
         <div class="mr-3">
           <p class="font-bold text-sm text-gray-500">Zack White</p>
         </div>
-        <i class="mdi mdi-arrow-down-drop-circle-outline text-blue-500"></i>
+        <i class="mdi mdi-menu-down text-blue-500"></i>
       </div>
     </div>
     <div class="bg-white dark:bg-[#17242b] rounded-xl">
