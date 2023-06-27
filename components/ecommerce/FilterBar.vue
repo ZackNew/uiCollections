@@ -64,7 +64,7 @@
       </div>
     </div>
     <div class="w-full">
-      <label for="range" class="font-bold">Min Order</label>
+      <h1 class="font-bold mb-3">Min Order</h1>
       <input
         type="range"
         name="price"
@@ -73,6 +73,27 @@
         value="10"
         class="w-full h-2 bg-blue-400 appearance-none"
       />
+    </div>
+    <div>
+      <h1 class="font-bold mb-3">Price</h1>
+      <div class="flex items-center max-w-full mb-3">
+        <i
+          class="mdi mdi-currency-usd text-gray-500 bg-slate-200 h-10 flex items-center justify-center px-2 rounded-l-lg text-xl"
+        ></i>
+        <input
+          type="text"
+          class="w-[80%] h-10 border border-gray-300 rounded-r-lg focus:ring-0"
+        />
+      </div>
+      <div class="flex items-center max-w-full">
+        <i
+          class="mdi mdi-currency-usd text-gray-500 bg-slate-200 h-10 flex items-center justify-center px-2 rounded-l-lg text-xl"
+        ></i>
+        <input
+          type="text"
+          class="w-[80%] h-10 border border-gray-300 rounded-r-lg focus:ring-0"
+        />
+      </div>
     </div>
   </div>
 </template>
