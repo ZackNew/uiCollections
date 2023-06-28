@@ -20,16 +20,18 @@ const projects = [
 
 <template>
   <NuxtLayout name="home">
-    <div class="container">
-      <div class="grid grid-cols-12 gap-4 mt-4 md:mt-12 justify-center">
-        <ProjectsCard
-          class="col-span-12 md:col-span-6 lg:col-span-4"
-          v-for="project in projects"
-          :key="project.name"
-          :img="project.img"
-          :name="project.name"
-          :link="project.link"
-        />
+    <div>
+      <div class="container">
+        <div class="grid grid-cols-12 gap-4 mt-4 md:mt-12 justify-center">
+          <ProjectsCard
+            class="col-span-12 md:col-span-6 lg:col-span-4"
+            v-for="project in projects"
+            :key="project.name"
+            :img="project.img"
+            :name="project.name"
+            :link="project.link"
+          />
+        </div>
       </div>
     </div>
   </NuxtLayout>
@@ -40,5 +42,6 @@ const projects = [
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  height: 100vh;
 }
 </style>

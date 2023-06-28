@@ -32,7 +32,7 @@ const props = defineProps([
         </div>
         <div>
           <p
-            class="font-bold text-lg text-blue-900 line-clamp-2 dark:text-blue-600"
+            class="font-bold text-lg text-blue-900 line-clamp-2 dark:text-blue-600 hover:text-blue-600 cursor-pointer"
           >
             {{ title }}
           </p>
@@ -46,7 +46,11 @@ const props = defineProps([
         <p class="text-sm text-gray-400 line-clamp-2 mt-3">{{ description }}</p>
         <hr class="mt-3 opacity-50" />
         <div class="flex items-center mt-5">
-          <img class="w-10 h-10 rounded-full mr-3" :src="user.image" alt="" />
+          <img
+            class="w-10 h-10 rounded-full mr-3 cursor-pointer"
+            :src="user.image"
+            alt=""
+          />
           <div>
             <p class="font-bold text-sm dark:text-gray-300">{{ user.name }}</p>
             <p class="text-sm text-gray-500">{{ user.position }}</p>
