@@ -25,7 +25,7 @@ function toggleActiveIcon(icon: string) {
         :class="`mdi ${icon} text-2xl p-2 m-2 lg:m-4 rounded-lg transition duration-300 ease-in-out ${
           icon === activeIcon
             ? 'bg-[#0f3a9c] text-[#02c3d4] transition duration-300 ease-in-out'
-            : 'text-gray-500 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-gray-800'
+            : 'text-gray-500 dark:text-gray-400 transition duration-300 ease-in-out hover:bg-gray-200 dark:hover:bg-gray-800'
         }`"
         @click="toggleActiveIcon(icon)"
       ></i>

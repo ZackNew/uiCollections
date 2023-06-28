@@ -67,7 +67,9 @@ const stories = [
         :src="story.image"
         alt=""
       />
-      <p class="text-center text-gray-500 capitalize">{{ story.name }}</p>
+      <p class="text-center text-gray-500 capitalize dark:text-gray-400">
+        {{ story.name }}
+      </p>
     </div>
   </div>
 </template>

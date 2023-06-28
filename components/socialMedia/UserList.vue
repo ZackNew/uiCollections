@@ -9,7 +9,7 @@ const props = defineProps(["image", "name", "status"]);
     <div class="flex justify-between items-center my-2">
       <div class="flex items-center">
         <img class="w-10 h-10 rounded-full mr-3" :src="image" alt="" />
-        <p class="font-semibold text-gray-600 truncate dark:text-gray-500">
+        <p class="font-semibold text-gray-600 truncate dark:text-gray-400">
           {{ name }}
         </p>
       </div>
@@ -18,7 +18,7 @@ const props = defineProps(["image", "name", "status"]);
           v-if="status === 'online'"
           class="mdi mdi-checkbox-blank-circle text-sm text-blue-400 text-end"
         ></i>
-        <p v-else class="text-gray-500 text-sm">
+        <p v-else class="text-gray-500 text-sm dark:text-gray-300">
           {{ status }}
         </p>
       </div>

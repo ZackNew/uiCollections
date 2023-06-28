@@ -143,8 +143,10 @@ const comments = [
               alt=""
             />
             <div>
-              <p class="font-bold text-sm text-gray-500">Pinned</p>
-              <p class="font-bold text-sm text-gray-600">
+              <p class="font-bold text-sm text-gray-500 dark:text-gray-300">
+                Pinned
+              </p>
+              <p class="font-bold text-sm text-gray-600 dark:text-gray-400">
                 Celebrating our 5th anniversary.
               </p>
             </div>
@@ -163,24 +165,24 @@ const comments = [
                 alt=""
               />
               <div>
-                <p class="font-bold text-sm text-gray-500">
+                <p class="font-bold text-sm text-gray-500 dark:text-gray-300">
                   {{ comment.name }}
                 </p>
-                <p class="font-bold text-sm text-gray-600">
+                <p class="font-bold text-sm text-gray-600 dark:text-gray-500">
                   {{ comment.comment }}
                 </p>
               </div>
             </div>
-            <p class="text-gray-400">{{ comment.time }}</p>
+            <p class="text-gray-400 dark:text-gray-300">{{ comment.time }}</p>
           </div>
         </div>
       </div>
       <div
-        class="text-gray bg-cyan-400 w-full rounded-b-xl flex items-center py-1 px-2"
+        class="text-gray bg-cyan-400 dark:bg-cyan-800 w-full rounded-b-xl flex items-center py-1 px-2"
       >
         <p class="text-xl">😀</p>
         <input
-          class="focus:ring-0 border-none w-full bg-cyan-400 text-white"
+          class="focus:ring-0 border-none w-full bg-cyan-400 dark:bg-cyan-800 text-white"
           placeholder="Search..."
           type="text"
         />
