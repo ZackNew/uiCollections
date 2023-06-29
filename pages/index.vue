@@ -16,7 +16,7 @@ const projects = [
     link: "/ecommerce",
   },
   {
-    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1687777734/comerce_bkxkrc.webp",
+    img: "https://res.cloudinary.com/doouhsdka/image/upload/v1688039249/github_notifications_glwvs7.png",
     name: "github notification clone",
     link: "/githubNotificationClone",
   },

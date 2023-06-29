@@ -44,7 +44,7 @@
       ></span>
       <a href="https://www.github.com/pulls" target="_blank"
         ><p
-          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm"
+          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm hover:text-gray-500"
         >
           pull requests
         </p></a
@@ -52,7 +52,7 @@
 
       <a href="https://www.github.com/issues" target="_blank">
         <p
-          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm"
+          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm hover:text-gray-500"
         >
           Issues
         </p></a
@@ -60,7 +60,7 @@
 
       <a href="https://www.github.com/marketplace" target="_blank"
         ><p
-          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm"
+          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm hover:text-gray-500"
         >
           Marketplace
         </p></a
@@ -68,7 +68,7 @@
 
       <a href="https://www.github.com/explore" target="_blank"
         ><p
-          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm"
+          class="hidden md:block font-bold capitalize whitespace-nowrap text-white mr-3 text-sm hover:text-gray-500"
         >
           Explore
         </p></a
