@@ -75,9 +75,11 @@
       >
     </div>
     <div class="flex items-center">
-      <i
-        class="mdi mdi-bell-outline text-white hover:text-gray-400 text-xl mr-4"
-      ></i>
+      <a href="https://github.com/notifications" target="_blank">
+        <i
+          class="mdi mdi-bell-outline text-white hover:text-gray-400 text-xl mr-4"
+        ></i>
+      </a>
       <div
         class="hidden md:flex items-center text-white hover:text-gray-400 text-xl mr-4"
       >
