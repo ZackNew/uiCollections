@@ -6,13 +6,14 @@
       <i class="mdi mdi-menu text-white text-lg"></i>
     </div>
     <div class="flex items-center">
-      <svg
-        class="h-8 w-8 fill-current hover:text-gray-500 text-white text-sm"
-        viewBox="0 0 16 16"
-        aria-hidden="true"
-      >
-        <path
-          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47
+      <a href="/">
+        <svg
+          class="h-8 w-8 fill-current hover:text-gray-500 text-white text-sm"
+          viewBox="0 0 16 16"
+          aria-hidden="true"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47
 					7.59.4.07.55-.17.55-.38
 					0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
 					1.08.58 1.23.82.72 1.21 1.87.87
@@ -23,8 +24,9 @@
 					0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01
 					1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016
 					8c0-4.42-3.58-8-8-8z"
-        ></path>
-      </svg>
+          ></path>
+        </svg>
+      </a>
       <span class="hidden md:block ml-4 relative text-sm mr-4"
         ><input
           class="w-full px-3 py-1 bg-gray-800 placeholder-gray-300 rounded-lg focus:outline-none focus:bg-white focus:text-gray-600 transition duration-300 ease-in-out"

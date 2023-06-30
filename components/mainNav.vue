@@ -2,7 +2,7 @@
   <div class="w-full bg-slate-500 h-12 flex justify-end px-6 items-center">
     <a href="https://github.com/ZackNew/uiCollections" target="_blank">
       <div
-        class="flex items-center hover:text-blue-500 transition duration-300 cursor-pointer text-gray-400"
+        class="flex items-center hover:text-blue-500 transition duration-300 cursor-pointer text-gray-300"
       >
         <svg class="h-8 w-8 fill-current mr-4" viewBox="0 0 480 512">
           <path
