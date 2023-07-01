@@ -300,7 +300,7 @@
       >
         <a
           class="flex items-center justify-between"
-          href="https://github.com/notifications/beta?query=repo%3AMohamed-Kaizen%2Fsvelte-tailwind-UI"
+          href="https://github.com/ZackNew/uiCollections"
           target="blank"
           ><div class="flex items-center capitalize">
             <img
