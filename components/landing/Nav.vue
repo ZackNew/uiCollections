@@ -8,7 +8,9 @@ const isMenuVisible = ref(false);
   >
     <!-- logo -->
     <div class="flex items-center justify-between text-4xl font-bold">
-      <img class="w-16 md:w-20" src="~/assets/images/jadooLogo.png" alt="" />
+      <a href="/">
+        <img class="w-24" src="~/assets/images/jadooLogo.png" alt="" />
+      </a>
 
       <div class="block md:hidden">
         <i
